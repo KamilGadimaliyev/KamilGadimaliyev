@@ -1,0 +1,48 @@
+/*!
+  * Item: Kitzu
+  * Description: Personal Portfolio Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v2.0.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+
+  .progress-bar span{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d5c455
+  }
+  .progress-bar{
+    background: #009E66;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    overflow: visible;
+    border-radius: 2px;
+  }
+  .progress{
+    height: 8px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+  }
+  .progress-wrap h3{
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .progress-wrap{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .ftco-section{
+    padding-bottom: 100px;
+  }
