@@ -20,9 +20,22 @@
   <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="../customizer/main.css">
-  <script>(function(w, d) { w.CollectId = "6144a4e7ef0a6c4814d2e73d"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+  <!-- <script>(function(w, d) { w.CollectId = "6144a4e7ef0a6c4814d2e73d"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
 </head>
 <body class="theme-dark">
+
+
+
+
+    <div id="fb-root"></div>
+
+    <!-- Your Sohbet Eklentisi code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+
+
+
   <div class="preloader">
     <div class="preloader-block">
       <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
@@ -569,5 +582,28 @@
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
   <script src="../customizer/main.js"></script>
+
+
+  
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "100443025735937");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/tr_TR/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 </body>
 </html>
