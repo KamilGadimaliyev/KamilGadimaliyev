@@ -70,3 +70,9 @@
     animation-delay: ($i/10) + s; 
   }
 }
+
+@media (max-width: 564px){
+  .preloader h5 span{
+    font-size: 26px;
+  }
+}
