@@ -71,6 +71,55 @@
   }
 }
 
+.box{
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.23,1.83,0.42,1.19);
+}
+.box:hover{
+  transform: scale(1.2);
+}
+.box .circle{
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  padding-top: 270px;
+  animation: 1s linear infinite
+  alternate daire,
+  4s linear infinite spinning;
+  position: absolute;
+  right: -250px;
+  top: -160px;
+}
+@keyframes daire {
+  from {
+    box-shadow:
+     0 0 0 #feac5e,
+     0 0 0 #009E66,
+     0 0 0 #4fb7be,
+     0 0 0 #009E66;
+  }
+  to {
+    box-shadow: 
+    0 -10px 0 #feac5e,
+    -10px 0 0 #009E66,
+    0 10px 0 #4bc0c8,
+    10px 0 0 #5a09c4;
+  } 
+}
+
+@keyframes spinning {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
+
 @media (max-width: 564px){
   .preloader h5 span{
     font-size: 26px;
