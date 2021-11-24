@@ -1,0 +1,12 @@
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\KamilGadimaliyev\source\repos\MVCProjeCore\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
