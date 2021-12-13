@@ -660,5 +660,18 @@
     display: none;
     left: 0px;
   }
+  .lesson .metn{
+    width: 93%;
+  }
+  .gray{
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .col-sm-6 .right{
+    margin-left: 0px;
+    width: 99%;
+    height: 30%;
+    background-size: 300px;
+  }
 }
   
